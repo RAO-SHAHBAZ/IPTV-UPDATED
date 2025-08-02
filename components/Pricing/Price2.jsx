@@ -70,7 +70,7 @@ export function Price() {
         <div className="w-full max-w-[310px] lg:max-w-[1420px] flex flex-wrap justify-center lg:justify-between h-auto items-center bg-[#2d2d2d] rounded-lg lg:rounded-full py-2 px-10">
 
           {/* Connection Options */}
-          {["Hmza", "shahbaz"].map((item, index) => (
+          {["Scandinavian Package", "English Package" , "Arabic Package"].map((item, index) => (
             <div key={index} className={`px-10 py-3 rounded-full text-white text-xl font-medium flex items-center justify-center 
       ${index === Price ? "bg-[#30A179] hover:text-white" : "hover:text-[#30A179]"} transition-all cursor-pointer`} onClick={() => handleConnection(index)}>
               {item}
