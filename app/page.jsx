@@ -10,7 +10,7 @@ import { Devices } from "@/components/Devices";
 import { Platforms } from "@/components/Platforms";
 import { NonStopEntertainment } from "@/components/NonStopEntertainment";
 import { StreamingAnywhere } from "@/components/StreamingAnywhere";
-import { Price } from "@/components/Pricing/Price";
+import { Price } from "@/components/Pricing/Price2";
 import { HowItWorks } from "@/components/HowItWorks";
 import { Client } from "@/components/Client";
 import { Footer } from "@/components/Footer";
@@ -43,7 +43,7 @@ export default function HomePage() {
       <StreamingAnywhere />
       <Price />
       <HowItWorks />
-      {/* <Client /> */}
+      <Client />
       <HelpCenter />
       <BlogSectin/>
       <FeedbackForm />

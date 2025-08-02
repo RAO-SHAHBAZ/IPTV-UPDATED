@@ -47,7 +47,7 @@ export function BlogSectin() {
                     More from out latest blogs
                 </h2>
             </div>
-      <div className="flex  gap-6 justify-center px-14">
+      <div className="flex max-sm:flex-col gap-6 justify-center sm:px-14">
         
         {articles.map((article, index) => (
           <motion.div

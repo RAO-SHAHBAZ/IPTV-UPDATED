@@ -58,7 +58,7 @@ export function IPTVArticles() {
 
   return (
     <div className="flex flex-wrap p-4 justify-center w-full py-16 lg:py-32">
-      <div className="flex flex-wrap gap-6 justify-center px-14">
+      <div className="flex flex-col gap-6 justify-center px-14">
         {articles.map((article, index) => (
           <motion.div
             onClick={() => handleImageClick(article, index)}
