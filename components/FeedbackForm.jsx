@@ -60,7 +60,7 @@ export function FeedbackForm() {
                             animate={{ x: 0, opacity: 1 }}
                             transition={{ duration: 0.5, ease: "easeOut" }}
                         >
-                            <h2 className="text-left text-white text-2xl lg:text-5xl font-semibold mb-6">
+                            <h2 className="text-left text-white text-2xl/2  lg:leading-[4.5rem] lg:text-5xl font-semibold mb-6">
                                 Express IPTV Express IPTV is a leader in smart IPTV solutions.
                             </h2>
                             <p className="text-left text-white text-md lg:text-2xl mb-6">
