@@ -58,9 +58,9 @@ export function IPTVBoxes() {
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.0, duration: 0.8 }}
           >
-            <div className="w-full h-40 sm:h-48 rounded-lg mb-4 flex items-center justify-center overflow-hidden">
+            <div className="w-full h-40 sm:h-[320px]  rounded-lg mb-4 flex items-center justify-center overflow-hidden">
               <Image 
-                src="https://peoplestv.co/wp-content/uploads/2025/06/OXM-600x716.png"
+                src="https://peoplestv.nl/wp-content/uploads/2025/06/OXM-252x300.png"
                 alt="Onyx IPTV Box"
                 width={200}
                 height={200}
@@ -81,7 +81,7 @@ export function IPTVBoxes() {
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.7, duration: 0.8 }}
           >
-            <div className="w-full h-40 sm:h-48 rounded-lg mb-4 flex items-center justify-center overflow-hidden">
+            <div className="w-full h-40 sm:h-[320px]  rounded-lg mb-4 flex items-center justify-center overflow-hidden">
               <Image 
                 src="https://peoplestv.co/wp-content/uploads/2025/06/tvip-605s.jpg"
                 alt="Tvip 705 s"
@@ -104,7 +104,7 @@ export function IPTVBoxes() {
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.8, duration: 0.8 }}
           >
-            <div className="w-full h-40 sm:h-48 rounded-lg mb-4 flex items-center justify-center overflow-hidden">
+            <div className="w-full h-40 sm:h-[320px]  rounded-lg mb-4 flex items-center justify-center overflow-hidden">
               <Image 
                 src="https://peoplestv.co/wp-content/uploads/2025/06/z-11-pro-600x715.jpg"
                 alt="Formuler Z11 Pro"
@@ -127,7 +127,7 @@ export function IPTVBoxes() {
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.9, duration: 0.8 }}
           >
-            <div className="w-full h-40 sm:h-48 rounded-lg mb-4 flex items-center justify-center overflow-hidden">
+            <div className="w-full h-40 sm:h-[320px]  rounded-lg mb-4 flex items-center justify-center overflow-hidden">
               <Image 
                 src="https://peoplestv.co/wp-content/uploads/2025/06/z11-pro-max-600x715.jpg"
                 alt="Formuler Z11 Pro Max"
