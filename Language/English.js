@@ -3,7 +3,7 @@ const English = {
     Home: "Home",
 
     Guides: "Guides",
-    Services: "Services",
+    Channels: "Channels",
     Free_Trail: "Free Trail",
     Reseller: "Reseller",
     Pricing: "Pricing",
