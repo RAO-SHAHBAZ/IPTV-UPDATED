@@ -7,44 +7,29 @@ import { motion, AnimatePresence } from "framer-motion";
 export function FaqList() {
     const faqs = [
         {
-            question: "What devices are compatible with IPTV?",
+            question: "What is IPTV?",
             answer:
-                "Most IPTV services are compatible with Smart TVs (Samsung, LG), Streaming devices (Roku, Fire TV), Smartphones (iOS, Android), Computers (Windows, Mac), and Set-top boxes (MAG, Android boxes).",
+                "IPTV stands for Internet Protocol Television, and it is a method of streaming television content over the internet, rather than using traditional cable or satellite.",
         },
         {
             question: "Do I need a fast internet connection for IPTV?",
             answer:
-                "A stable internet connection is required. A minimum of 10 Mbps is recommended for SD streaming, while HD and 4K may require 25 Mbps or more.",
+                "IPTV delivers your favorite TV shows, movies, and live channels directly to your device via the internet, allowing for more flexibility and fewer interruptions than traditional cable.",
         },
         {
-            question: "How can I access IPTV content on multiple devices?",
+            question: "What Are the Best IPTV Providers?",
             answer:
-                "Many IPTV providers allow simultaneous connections on multiple devices, but it depends on the service plan.",
+                "Express IPTV is one of the best providers in 2025, offering reliable service, flexible plans, and access to global content.",
         },
         {
-            question: "Can I watch IPTV on my smartphone or tablet?",
+            question: "Is IPTV Legal in the USA?",
             answer:
-                "Yes, most IPTV services offer apps for iOS and Android devices for on-the-go streaming.",
+                "Yes, IPTV is legal in the USA as long as the content is sourced from legitimate providers. Always verify the provider's credentials before subscribing.",
         },
         {
-            question: "Are smart TVs compatible with IPTV services?",
+            question: "What Devices Can I Use with IPTV?",
             answer:
-                "Yes, most Smart TVs support IPTV through apps like Smart IPTV, TiviMate, or custom provider apps.",
-        },
-        {
-            question: "What are some popular IPTV service providers?",
-            answer:
-                "Some popular IPTV providers include Express IPTV, Eternal TV, Vader Streams, and Sapphire Secure.",
-        },
-        {
-            question: "Is there a difference between IPTV and traditional cable TV?",
-            answer:
-                "Yes, IPTV streams content via the internet, while cable TV uses physical cables for transmission.",
-        },
-        {
-            question: "How can I set up IPTV on my device?",
-            answer:
-                "You can set up IPTV by installing the IPTV app, entering your subscription credentials, and configuring the service provider's settings.",
+                "You can enjoy Express IPTV on a variety of devices, including Firestick, Apple TV, Roku, smartphones, and tablets.",
         },
     ];
 
