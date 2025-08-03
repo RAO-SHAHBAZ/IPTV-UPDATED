@@ -52,7 +52,8 @@ export function OurValuesCard() {
         };
     }, []);
     return (
-        <div className="w-full max-w-[1920px] px-6 lg:px-16 py-10 lg:py-20 flex flex-col justify-start items-center gap-10" ref={divRef}>
+       <div className='flex justify-center '>
+         <div className="w-full xl:max-w-[1200px] 2xl:max-w-[1500px] px-6 lg:px-16 py-10 lg:py-20 flex flex-col justify-center items-center gap-10" ref={divRef}>
             {/* Heading Section */}
             <div className="relative flex flex-col items-center text-center w-full px-4">
                 <h1 className="Features_label text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-[100px]">
@@ -64,14 +65,14 @@ export function OurValuesCard() {
             </div>
 
             {/* Cards Section */}
-            <div className="flex flex-wrap gap-8 w-full justify-center pt-10">
+            <div className="flex flex-wrap gap-8 w-full justify-center pt-10 ">
                 {isVisible && values.map((value, index) => (
                     <motion.div
                         key={index}
                         initial={{ opacity: 0, y: 50 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.6, delay: index * 0.2 }}>
-                        <div className="relative w-full sm:max-w-[380px] min-h-[320px] bg-[#292929] rounded-[12px] border border-white/10 p-6 flex flex-col gap-4 shadow-lg cursor-pointer hover:scale-105 transition-all duration-200">
+                        <div className="relative w-full sm:max-w-[380px]  min-h-[320px] bg-[#292929] rounded-[12px] border border-white/10 p-6 flex flex-col gap-4 shadow-lg cursor-pointer hover:scale-105 transition-all duration-200">
                             <Image
                                 src={value.imageSrc}
                                 alt={value.title}
@@ -97,5 +98,6 @@ export function OurValuesCard() {
                 ))}
             </div>
         </div>
+       </div>
     );
 }

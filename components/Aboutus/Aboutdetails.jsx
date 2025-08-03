@@ -27,12 +27,16 @@ export function Aboutdetails() {
 
             {/* Text Section */}
             <motion.div
-                className="w-full max-w-[600px] px-4 lg:px-0 flex items-center text-white text-lg lg:text-xl leading-relaxed font-normal text-center lg:text-left"
+                className="w-full max-w-[600px] px-4 lg:px-0 flex flex-col items-center text-white text-lg lg:text-xl leading-relaxed font-normal text-center lg:text-left"
                 initial={{ opacity: 0, x: 50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 1, delay: 0.3 }}
             >
-                At Express IPTV, we believe in the future of entertainment. Founded by a team of passionate media professionals and technology enthusiasts, our mission is to deliver a seamless viewing experience that transcends traditional television. With a commitment to innovation and customer satisfaction, we've established ourselves as a leading provider of high-quality IPTV services.
+                <b>At Express IPTV, we’re redefining the way the world watches TV.</b><br />
+ Backed by a team of digital media experts and tech innovators, we offer a viewing experience that goes beyond traditional broadcasting. Whether it's live sports, global news, or blockbuster entertainment, our platform is designed to deliver seamless, high-speed, and high-definition streaming — anytime, anywhere.
+ <br />
+ <br />
+ Through constant innovation and a customer-first approach, Express IPTV has become a trusted name in IPTV services, offering flexible access to content that fits every lifestyle.
             </motion.div>
         </div>
     );

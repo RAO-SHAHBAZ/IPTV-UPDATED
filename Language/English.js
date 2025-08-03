@@ -324,8 +324,8 @@ const English = {
       "Select Your Premium IPTV Subscription Plan and Unlock a Universe of Entertainment.",
   },
   AboutBanner_section: {
-    heading: "About US",
-    description: "At Express IPTV, we believe in the future of entertainment.",
+    heading: "About Express IPTV",
+    description: "Streaming the Future — Today",
   },
   OurValuesCard_section: {
     Title: "OUR VALUES",
@@ -333,17 +333,17 @@ const English = {
     Customer_Centricity_Card: {
       title: "Customer-Centricity",
       description:
-        "Your satisfaction is our priority. We listen to our customers and continuously strive to improve our services based on your feedback.",
+        " Your satisfaction is our priority. We listen to our customers and continuously strive to improve our services based on your feedback. We’re always here to ensure you get the best possible experience.",
     },
     Quality_Reliability_Card: {
       title: "Quality and Reliability",
       description:
-        "We are committed to delivering a high-quality streaming experience, ensuring that you can enjoy your favorite content without interruptions.",
+        "We are committed to delivering a high-quality streaming experience, ensuring that you can enjoy your favorite content without interruptions. We pride ourselves on our reliability, with a service you can count on.",
     },
     Innovation_Card: {
       title: "Innovation",
       description:
-        "The entertainment landscape is constantly evolving, and so are we. We embrace the latest technologies to enhance your viewing experience.",
+        "The entertainment landscape is constantly evolving, and so are we. We embrace the latest technologies to enhance your viewing experience, providing you with the most advanced IPTV service available.",
     },
   },
   ContactBanner_section: {
