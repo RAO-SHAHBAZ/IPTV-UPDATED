@@ -12,7 +12,7 @@ export function ServiceBanner() {
     const t = translations[language].ServiceBanner_section
 
     return (
-        <section className="relative w-full h-[85vh] sm:h-[90vh] lg:h-screen overflow-hidden bg-black">
+        <section className="relative w-full h-[800px] sm:h-[1000px]  overflow-hidden bg-black">
             {/* Background Image Container */}
             <motion.div 
                 className="grid lg:grid-cols-2 lg:absolute top-0 right-0 w-full lg:w-2/3 lg:h-screen md:h-[30%] h-[25%]"
