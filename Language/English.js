@@ -7,7 +7,6 @@ const English = {
     Free_Trail: "Free Trail",
     Reseller: "Reseller",
     Pricing: "Pricing",
-    About_us: "About ",
     Contact_us: "Contact us",
     FAQ: "FAQs",
     Blog: "Blogs",
@@ -16,7 +15,7 @@ const English = {
     Refund_Policy: "Refund Policy",
     Get_in_Touch: "Get in Touch",
     Terms_of_Conditions: "Terms of Conditions",
-    Support: "Support",
+    Support: "About",
     button_text: "Contact Us",
   },
   footer: {

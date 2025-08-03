@@ -20,10 +20,10 @@ export function Header() {
   const navigation = [
     { name: t.Home, href: "/" },
     { name: t.Free_Trail, href: "#" },
+    // { name: t.Support, href: "/about" },
     { name: t.Channels, href: "/Channels" },
     { name: t.Guides, href: "/guides" },
     { name: t.Pricing, href: "/pricing" },
-    { name: t.About_us, href: "/about" },
     { name: t.Reseller, href: "#" },
     { name: "language", href: "" },
     { name: t.Blog, href: "/blog" },
