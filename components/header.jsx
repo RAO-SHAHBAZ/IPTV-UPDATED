@@ -81,9 +81,11 @@ export function Header() {
             </Button>
           </div>
           {/* Desktop Get Started Button */}
-          <Button className="hidden w-auto px-5 xl:inline-flex button text-white rounded-full text-md font-medium">
-            {t.button_text}
-          </Button>
+        <Link href="https://jivo.chat/p36Je0zF3T" target='_blank'>
+  <Button className="hidden w-auto px-5 xl:inline-flex button text-white rounded-full text-md font-medium">
+    {t.button_text}
+  </Button>
+</Link>
           {/* <Custombutton /> */}
         </div>
       </div>

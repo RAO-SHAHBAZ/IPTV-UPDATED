@@ -65,7 +65,7 @@ export function OurValuesCard() {
             </div>
 
             {/* Cards Section */}
-            <div className="flex flex-wrap gap-8 w-full justify-center pt-10 ">
+            <div className="flex flex-wrap lg:flex-nowrap xl:flex-nowrap gap-8 w-full justify-center pt-10 ">
                 {isVisible && values.map((value, index) => (
                     <motion.div
                         key={index}

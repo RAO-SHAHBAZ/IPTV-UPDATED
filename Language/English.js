@@ -380,40 +380,79 @@ const English = {
     button_text: "Accept",
     other_description: [
       {
-        heading: "Intellectual Property",
-        description:
-          "The Agreement does not transfer from Us to you any of our or third-party intellectual property, and all rights, titles, and interests in and to such property will remain (as between the parties) solely with IPTV and its licensors.",
-      },
-      {
-        heading: "Third-Party Services",
-        description:
-          "In using the Services, you may use third-party services, products, software, embeds, or applications developed by a third party (“Third Party Services”).If you use any Third Party Services, you understand that:Any use of a Third Party Service is at your own risk, and we shall not be responsible or liable to anyone for Third Party websites or Services.You acknowledge and agree that We shall not be responsible or liable for any damage or loss caused or alleged to be caused by or in connection with the use of any such content, goods, or services available on or through any such websites or services.AccountsWhere the use of any part of our Services requires an account, you agree to provide us with complete and accurate information when you register for an account.You will be solely responsible and liable for any activity that occurs under your account. You are responsible for keeping your account information up-to-date and for keeping your password secure.You are responsible for maintaining the security of the account that you use to access the Service. You shall not share or misuse your access credentials. You must notify us immediately of any unauthorized uses of your account or upon becoming aware of any other breach of security.",
-      },
-      {
-        heading: "Accounts",
-        description:
-          "Where the use of any part of our Services requires an account, you agree to provide us with complete and accurate information when you register for an account. You will be solely responsible and liable for any activity that occurs under your account. You are responsible for keeping your account information up-to-date and for keeping your password secure.You are responsible for maintaining the security of the account that you use to access the Service. You shall not share or misuse your access credentials. You must notify us immediately of any unauthorized uses of your account or upon becoming aware of any other breach of security.",
-      },
-      {
-        heading: "Termination",
-        description:
-          "We may terminate or suspend your access to all or any part of our Services at any time, with or without cause, with or without notice, effective immediately.  If you wish to terminate the Agreement or your IPTV account, you may simply discontinue using our Services.  All provisions of the Agreement which by their nature should survive termination shall survive termination, including, without limitation, ownership provisions, warranty disclaimers, indemnity, and limitations of liability.",
-      },
-      {
-        heading: "Disclaimer",
-        description:
-          "Our Services are provided “AS IS.” and “AS AVAILABLE” basis. IPTV and its suppliers and licensors hereby disclaim all warranties of any kind, express or implied, including, without limitation, the warranties of merchantability, fitness for a particular purpose, and non-infringement. Neither IPTV nor its suppliers and licensors makes any warranty that our Services will be error-free or that access thereto will be continuous or uninterrupted. You understand that you download from, or otherwise obtain content or services through, our Services at your own discretion and risk.",
-      },
-      {
-        heading: "Jurisdiction and Applicable Law",
-        description:
-          "Except to the extent any applicable law provides otherwise, the Agreement and any access to or use of our Services will be governed by the laws of Morocco.  The proper venue for any disputes arising out of or relating to the Agreement and any access to or use of our Services will be the state and federal courts located in Morocco.",
-      },
-      {
-        heading: "Changes",
-        description:
-          "IPTV reserves the right, at our sole discretion, to modify or replace these Terms at any time.If we make changes that are material, we will let you know by posting on our website, or by sending you an email or other communication before the changes take effect. The notice will designate a reasonable period of time after which the new terms will take effect.If you disagree with our changes, then you should stop using our Services within the designated notice period, or once the changes become effective.Your continued use of our Services will be subject to the new terms.",
-      },
+    heading: "1. Acceptance of Terms",
+    description:
+      "By accessing and using the services provided by Express IPTV, you agree to comply with these Terms and Conditions. If you do not agree with these terms, please do not use our website or services.",
+  },
+  {
+    heading: "2. Account Registration",
+    description:
+      "To access certain features of our services, you may need to register for an account. By registering, you agree to provide accurate and complete information. You are responsible for maintaining the confidentiality of your account details, including your username and password, and for all activities that occur under your account.",
+  },
+  {
+    heading: "3. Subscription and Billing",
+    description: [
+      "Pricing: Our subscription plans are detailed on the website, and by subscribing to our service, you agree to pay the stated fees.",
+      "Payment: All payments for our services must be made in accordance with the payment methods provided on the website.",
+      "Refund Policy: Subscriptions are non-refundable unless stated otherwise. Refunds are subject to our discretion and the specific circumstances of your request.",
+      "Automatic Renewal: Your subscription will automatically renew unless you cancel it before the next billing cycle. You can cancel your subscription through your account settings.",
+    ],
+  },
+  {
+    heading: "4. User Conduct",
+    description: [
+      "When using our services, you agree to not engage in any of the following:",
+      "Violating any laws or regulations.",
+      "Distributing harmful content, including viruses or malware.",
+      "Attempting to disrupt or damage the functionality of the services.",
+      "Accessing content that is restricted or intended for other users.",
+    ],
+  },
+  {
+    heading: "5. Intellectual Property",
+    description:
+      "All content provided by Express IPTV, including logos, images, videos, software, and other materials, is protected by intellectual property laws and remains the property of Express IPTV or its licensors. You may not use, copy, or modify any of our content without our express permission.",
+  },
+  {
+    heading: "6. Privacy",
+    description:
+      "Your use of our services is also governed by our Privacy Policy, which can be found [here]. By using our services, you consent to the collection and use of your personal information as described in the Privacy Policy.",
+  },
+  {
+    heading: "7. Termination",
+    description:
+      "We reserve the right to suspend or terminate your account at any time for violation of these Terms and Conditions, non-payment, or any other reason we deem necessary. Upon termination, all access to our services will be immediately revoked.",
+  },
+  {
+    heading: "8. Limitation of Liability",
+    description:
+      "To the maximum extent permitted by law, Express IPTV is not liable for any indirect, incidental, special, or consequential damages resulting from your use of our services. Our total liability shall not exceed the total amount paid by you for the subscription during the six months preceding the event that caused the damage.",
+  },
+  {
+    heading: "9. Indemnification",
+    description:
+      "You agree to indemnify and hold harmless Express IPTV, its affiliates, employees, and agents from any claims, losses, damages, and expenses arising out of your violation of these Terms and Conditions or your use of our services.",
+  },
+  {
+    heading: "10. Amendments",
+    description:
+      'We reserve the right to update or modify these Terms and Conditions at any time. Any changes will be posted on this page, and the "Last Updated" date will be revised accordingly. Your continued use of the services after such changes will constitute acceptance of the updated terms.',
+  },
+  {
+    heading: "11. Governing Law",
+    description:
+      "These Terms and Conditions are governed by the laws of the jurisdiction in which Express IPTV operates, without regard to its conflict of law principles. Any disputes related to these terms shall be resolved in the appropriate courts in that jurisdiction.",
+  },
+  {
+    heading: "12. Dispute Resolution",
+    description:
+      "In the event of any dispute, the parties agree to first attempt to resolve the issue through mediation or other amicable means. If the dispute cannot be resolved, it will be settled in the courts of the jurisdiction specified above.",
+  },
+  {
+    heading: "13. Contact Information",
+    description:
+      "If you have any questions or concerns regarding these Terms and Conditions, please contact us:\nEmail: expresstv@hushmail.me",
+  },
     ],
   },
   Refund_and_Returns_Policy: {
@@ -422,114 +461,172 @@ const English = {
       "Please read the following carefully, then send us a refund request by creating a ticket in the support section.",
     other_description: [
       {
-        heading: "Requests for Refund must be clear and acceptable:",
+        heading: "Refund Eligibility",
+        
         description: [
+          
           {
-            text: "  Before you buy, be sure to request a trial account. We have set up a trial account so that you can test it, and if you are not satisfied, do not buy a long-term service.",
+            text: " Technical Issues: If you experience significant issues with our IPTV service, such as service downtime or issues related to streaming, we will investigate and issue a refund based on the nature and severity of the issue.",
           },
           {
-            text: "If your internet speed is slow, you will not be able to see and use our IPTV services and then request a refund.",
+            text: "Non-Usage: If you haven't used the service after purchasing the subscription and request a refund within the first 24 hours of activation, you may be eligible for a refund.",
           },
           {
-            text: "The big IPTV team is always ready to respond 24 hours a day, seven days a week, and if you can’t set up the IPTV service on the devices you have for any reason, it won’t include refunds. Please see and learn the necessary tutorials on setting up IPTV.",
+            text: "Service Cancellation: If you wish to cancel your subscription, please do so before your next billing cycle. Refunds are not provided for partial usage during a billing cycle unless specified otherwise.",
           },
-          {
-            text: "If you made a mistake in choosing the service and completed the payment, you can find a ticket in the support section entitled “Create then our support team will review it, accept it, and do the refund. Payment error: this means that you want to buy a 3-month service but have mistakenly chosen and paid for a year or less.",
-          },
-          {
-            text: "If your account expires 7 days later, the refund request will not be accepted.",
-          },
+ 
+       
         ],
       },
+      {
+      heading: "2. Non-Refundable Situations",
+      description: [
+        {
+          text: "Change of Mind: Once a subscription has been activated and content has been accessed, we do not offer refunds for simple change of mind.",
+        },
+        {
+          text: "Late Cancellations: If you cancel your subscription after the billing date has passed, the payment for that period is non-refundable.",
+        },
+        {
+          text: "Third-Party Payment Issues: If payments are made through third-party payment processors or platforms, refunds will need to be processed through those platforms.",
+        },
+      ],
+    },
+    {
+      heading: "3. How to Request a Refund",
+      description: [
+        {
+          text: "Contact Us: Reach out to our customer support team at support@expressiptv.com within 7 days of your subscription to explain the issue you're facing.",
+        },
+        {
+          text: "Provide Necessary Information: Include your account details, subscription information, and a description of the problem or reason for your refund request.",
+        },
+        {
+          text: "Resolution Process: Our support team will evaluate your request and inform you of the refund decision. If your request meets our refund criteria, we will process your refund promptly.",
+        },
+      ],
+    },
+    {
+      heading: "4. Return of Equipment (If Applicable)",
+      description: [
+        {
+          text: "Return Period: Equipment must be returned within 30 days of delivery for a full refund. After this period, returns will not be accepted.",
+        },
+        {
+          text: "Condition: The equipment must be returned in its original condition, including all accessories, cables, and packaging.",
+        },
+        {
+          text: "Return Process: To initiate a return, contact our support team, and we will provide instructions on how to send the equipment back.",
+        },
+      ],
+    },
+    {
+      heading: "5. Processing Time",
+      description: [
+        {
+          text: "Once your refund request is approved, we will process it within 7-10 business days. Refunds will be issued via the original payment method used at the time of purchase.",
+        },
+      ],
+    },
+    {
+      heading: "6. Changes to This Policy",
+      description: [
+        {
+          text: 'We reserve the right to modify or update this Refund and Returns Policy at any time. Any changes will be posted on this page with an updated "Last Updated" date. Please review this policy periodically for any updates.',
+        },
+      ],
+    },
+    {
+      heading: "7. Contact Us",
+      description: [
+        {
+          text: "If you have any questions or concerns about our Refund and Returns Policy, feel free to contact us:\nEmail: expresstv@hushmail.me",
+        },
+      ],
+    },
     ],
   },
   Privacy_Policy: {
-    heading: "Privacy Policy",
-    description:
-      "Welcome to IPTV.COM (the ”Site”). We understand that privacy online is important to users of our Site, especially when conducting business. This statement governs our privacy policies with respect to those users of the Site (”Visitors”) who visit without transacting business and Visitors who register to transact business on the Site and make use of the various services offered by IPTV (collectively, ”Services”) (”Authorized Customers”).",
-    other_description: [
-      {
-        heading: "”Personally Identifiable Information”",
-        description:
-          "refers to any information that identifies or can be used to identify, contact, or locate the person to whom such information pertains, including, but not limited to, name, address, phone number, fax number, email address, financial profiles, social security number, and credit card information. Personally Identifiable Information does not include information that is collected anonymously (that is, without identification of the individual user) or demographic information not connected to an identified individual.",
-      },
-      {
-        heading: "What Personally Identifiable Information is collected?",
-        description:
-          "We may collect basic user profile information from all of our Visitors. We collect the following additional information from our Authorized Customers: the names, addresses, phone numbers, and email addresses of Authorized Customers, the nature and size of the business, and the nature and size of the advertising inventory that the Authorized Customer intends to purchase or sell.",
-      },
-      {
-        heading: "What organizations are collecting the information?",
-        description:
-          "In addition to our direct collection of information, our third-party service vendors (such as credit card companies, clearinghouses, and banks) who may provide such services as credit, insurance, and escrow services may collect this information from our Visitors and Authorized Customers. We do not control how these third parties use such information, but we do ask them to disclose how they use personal information provided to them by Visitors and Authorized Customers. Some of these third parties may be intermediaries that act solely as links in the distribution chain and do not store, retain, or use the information given to them.",
-      },
-      {
-        heading: "How does the Site use Personally Identifiable Information?",
-        description:
-          "We use Personally Identifiable Information to customize the Site, make appropriate service offerings, and fulfill buying and selling requests on the Site. We may email Visitors and Authorized Customers about research or purchase and selling opportunities on the Site or information related to the subject matter of the Site. We may also use Personally Identifiable Information to contact Visitors and Authorized Customers in response to specific inquiries or to provide requested information.",
-      },
-      {
-        heading: "With whom may the information may be shared?",
-        description:
-          "Personally Identifiable Information about Authorized Customers may be shared with other Authorized Customers who wish to evaluate potential transactions with other Authorized Customers. We may share aggregated information about our Visitors, including the demographics of our Visitors and Authorized Customers, with our affiliated agencies and third-party vendors. We also offer the opportunity to ”opt-out” of receiving information or being contacted by us or by any agency acting on our behalf.",
-      },
-      {
-        heading: "How is Personally Identifiable Information stored?",
-        description:
-          "Personally Identifiable Information collected by IPTV is securely stored and is not accessible to third parties or employees of IPTV except for use as indicated above.",
-      },
-      {
-        heading:
-          "What choices are available to Visitors regarding the collection, use, and distribution of the information?",
-        description:
-          "Visitors and Authorized Customers may opt out of receiving unsolicited information from or being contacted by us and/or our vendors and affiliated agencies by responding to emails as instructed, or by contacting us at",
-      },
-      {
-        heading: "Are Cookies Used on the Site?",
-        description:
-          "Cookies are used for a variety of reasons. We use Cookies to obtain information about the preferences of our Visitors and the services they select. We also use Cookies for security purposes to protect our Authorized Customers. For example, if an Authorized Customer is logged on and the site is unused for more than 10 minutes, we will automatically log the Authorized Customer off.",
-      },
-      {
-        heading: "How does IPTV use login information?",
-        description:
-          "IPTV uses login information, including, but not limited to, IP addresses, ISPs, and browser types, to analyze trends, administer the Site, track a user’s movement and use, and gather broad demographic information.",
-      },
-      {
-        heading:
-          "What partners or service providers have access to Personally Identifiable Information from Visitors and/or Authorized Customers on the Site?",
-        description:
-          "IPTV has entered into and will continue to enter into partnerships and other affiliations with a number of vendors. Such vendors may have access to certain Personally Identifiable Information on a need-to-know basis for evaluating Authorized Customers for service eligibility. Our privacy policy does not cover their collection or use of this information. Disclosure of Personally Identifiable Information to comply with the law. We will disclose Personally Identifiable Information in order to comply with a court order or subpoena or a request from a law enforcement agency to release information. We will also disclose Personally Identifiable Information when reasonably necessary to protect the safety of our Visitors and Authorized Customers.",
-      },
-      {
-        heading:
-          "How does the Site keep Personally Identifiable Information secure?",
-        description:
-          "All of our employees are familiar with our security policy and practices. The Personally Identifiable Information of our Visitors and Authorized Customers is only accessible to a limited number of qualified employees who are given a password in order to gain access to the information. We audit our security systems and processes on a regular basis. Sensitive information, such as credit card numbers or social security numbers, is protected by encryption protocols, in place to protect information sent over the Internet. While we take commercially reasonable measures to maintain a secure site, electronic communications, and databases are subject to errors, tampering, and break-ins, and we cannot guarantee or warrant that such events will not take place and we will not be liable to Visitors or Authorized Customers for any such occurrences.",
-      },
-      {
-        heading:
-          "How can Visitors correct any inaccuracies in Personally Identifiable Information?",
-        description:
-          "Visitors and Authorized Customers may contact us to update Personally Identifiable Information about them or to correct any inaccuracies by emailing us at Support@iptv.pw",
-      },
-      {
-        heading:
-          "Can a Visitor delete or deactivate Personally Identifiable Information collected by the Site?",
-        description:
-          "We provide Visitors and Authorized Customers with a mechanism to delete/deactivate Personally Identifiable Information from the Site’s database by contacting them. However, because of backups and records of deletions, it may be impossible to delete a Visitor’s entry without retaining some residual information. An individual who requests to have Personally Identifiable Information deactivated will have this information functionally deleted, and we will not sell, transfer, or use Personally Identifiable Information relating to that individual in any way moving forward.",
-      },
-      {
-        heading: "What happens if the Privacy Policy Changes?",
-        description:
-          "We will let our Visitors and Authorized Customers know about changes to our privacy policy by posting such changes on the Site. However, if we are changing our privacy policy in a manner that might cause disclosure of Personally Identifiable Information that a Visitor or Authorized Customer has previously requested not be disclosed, we will contact such Visitor or Authorized Customer to allow such Visitor or Authorized Customer to prevent such disclosure.",
-      },
-      {
-        heading: "Links:",
-        description:
-          "IPTV.COM contains links to other websites. Please note that when you click on one of these links, you are moving to another website. We encourage you to read the privacy statements of these linked sites as their privacy policies may differ from ours.",
-      },
-    ],
-  },
+  heading: "Privacy Policy",
+  description:
+    "Express IPTV is committed to protecting your privacy. This Privacy Policy outlines how we collect, use, and safeguard your personal information when you visit our website or use our IPTV services. By using our services, you agree to the collection and use of information in accordance with this policy.",
+  other_description: [
+    {
+      heading: "1. Information We Collect",
+      description: `We collect the following types of information:
+
+Personal Information: When you register for our services or subscribe to our offerings, we collect personal information such as your name, email address, phone number, billing address, and payment details.
+
+Usage Data: We collect data on how you use our services, including but not limited to browsing patterns, IP address, device information, and interaction with our website and content.
+
+Cookies and Tracking Technologies: We use cookies and similar tracking technologies to track your activity on our website. This helps us improve user experience, analyze trends, and understand your preferences.`,
+    },
+    {
+      heading: "2. How We Use Your Information",
+      description: `We use the information we collect for the following purposes:
+
+Providing Services: To deliver and maintain our IPTV services, process payments, and manage subscriptions.
+
+Communication: To send you updates, promotional content, and information related to your account or service usage.
+
+Improving User Experience: To personalize content and enhance your experience on our website and through our services.
+
+Security and Fraud Prevention: To detect and prevent unauthorized access, fraud, or misuse of our services.
+
+Legal Compliance: To comply with applicable laws, regulations, or legal obligations.`,
+    },
+    {
+      heading: "3. Data Sharing and Disclosure",
+      description: `We do not sell, rent, or share your personal information with third parties for their marketing purposes. However, we may share your information in the following circumstances:
+
+Service Providers: We may share your information with trusted third-party service providers who assist in running our business, such as payment processors, customer support, or hosting services. These third parties are obligated to protect your information and use it only for the purpose of providing their services.
+
+Legal Requirements: We may disclose your information if required to do so by law or in response to a valid request by public authorities (e.g., a court or government agency).
+
+Business Transfers: In the event of a merger, acquisition, or sale of assets, your personal information may be transferred to the new owner, subject to this privacy policy.`,
+    },
+    {
+      heading: "4. Data Security",
+      description: `We employ reasonable and industry-standard security measures to protect your personal data from unauthorized access, disclosure, alteration, or destruction. However, no method of transmission over the Internet or electronic storage is 100% secure, and we cannot guarantee absolute security.`,
+    },
+    {
+      heading: "5. Your Data Protection Rights",
+      description: `Depending on your jurisdiction, you may have the following rights regarding your personal information:
+
+Access: You have the right to request access to the personal data we hold about you.
+
+Correction: You can request correction of inaccurate or incomplete data.
+
+Deletion: You can request the deletion of your personal data, subject to certain exceptions.
+
+Opt-out of Marketing: You may opt-out of receiving marketing communications from us by following the instructions in our emails or by contacting us directly.
+
+Data Portability: In certain circumstances, you may request a copy of your data in a portable format.
+
+If you wish to exercise any of these rights, please contact us at the contact details provided at the end of this policy.`,
+    },
+    {
+      heading: "6. Cookies and Tracking Technologies",
+      description: `We use cookies to enhance your experience while using our website. Cookies are small text files stored on your device that help us recognize you and personalize content. You can choose to disable cookies through your browser settings, but this may impact your ability to use certain features of our website.
+
+For more information on how we use cookies, please refer to our Cookie Policy.`,
+    },
+    {
+      heading: "7. Links to Third-Party Websites",
+      description: `Our website may contain links to third-party websites or services. These sites are not under our control and are not covered by this Privacy Policy. We encourage you to review the privacy policies of these third-party websites before providing them with any personal information.`,
+    },
+    {
+      heading: "8. Changes to This Privacy Policy",
+      description: `We reserve the right to update or modify this Privacy Policy at any time. Any changes will be reflected on this page with an updated "Last Updated" date. We encourage you to review this policy periodically to stay informed about how we are protecting your information.`,
+    },
+    {
+      heading: "9. Contact Us",
+      description: `If you have any questions or concerns about this Privacy Policy or our data practices, please contact us:
+
+Email: expresstv@hushmail.me`,
+    },
+  ],
+},
   Troubleshooting: {
     heading: "Website Troubleshooting Steps",
     description:
