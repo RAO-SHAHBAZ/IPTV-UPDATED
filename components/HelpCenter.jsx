@@ -65,12 +65,9 @@ export function HelpCenter() {
                     >
                         <h2 className="text-3xl md:text-5xl/normal font-bold">
                           Help Center - FAQs <br />
-                            <span className="text-[#2EAE8C]">{t.highlighted_text}</span>
+                            {/* <span className="text-[#2EAE8C]">{t.highlighted_text}</span> */}
                         </h2>
-                        <p className=" text-lg md:text-2xl">
-                            Browse the most common customer queris and
-                            <span className="font-bold text-[#2EAE8C]"> clear your doubts instantly</span>, 
-                        </p>
+
                         <ul className="space-y-4 text-md md:text-xl xl:text-[16px] text-left">
                                         <FaqList />
                         </ul>
